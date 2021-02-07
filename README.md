@@ -1,5 +1,5 @@
 # The multipurpose board
-This board allows to use any arduino project (because is based on a atmega328p) that involves an oled, a microsd and or even a voltmeter.
+This is, like his name states, a board that allows use any arduino pro mini or nano project (because is based on a atmega328p) that involves an oled, a microsd and or even a voltmeter.
 
 This board was initially designed for an Amiga Power Supply to display the output voltages of the Meanwell RT65. The project is described here http://blog.arananet.net/fabricando-una-fuente-de-alimentacion-para-amiga/
 
