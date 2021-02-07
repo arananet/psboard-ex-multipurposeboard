@@ -2,20 +2,19 @@
 /*--------------------------------------------------------------
   Program:      voltmeter_LCD
 
-  Description:  4 channel DC voltmeter with voltages displayed
-                on LCD to 1 decimal place
+  Description:  2 channel DC voltmeter with voltages displayed
+                on OLED to 1 decimal place
   
-  Hardware:     Arduino Uno with voltage dividers on A2 to A5.
-                2 x 16 LCD connected to standard pins used in
-                Arduino example sketches from IDE.
+  Hardware:     multipurpose board available on this repo.
                 
-  Software:     Developed using Arduino 1.0.5 software
-                Should be compatible with Arduino 1.0 +
+  Software:     Developed using Arduino 1.6.5 software
 
   Date:         27 May 2013 / 07-02-2021
  
   Author:       W.A. Smith, http://startingelectronics.org
-                Oled version by @edu_arana - info@arananet.net
+                Adapter for the multipurposeboard
+		Support for Oled screens
+		by @edu_arana - info@arananet.net
 --------------------------------------------------------------*/
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
@@ -35,13 +34,9 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 // voltage divider calibration values
 #define DIV_1    11.1346
 #define DIV_2    11.1969
-#define DIV_3    11.0718
-#define DIV_4    11.0718
 
 #define DIV_1    11.1346
 #define DIV_2    11.1969
-#define DIV_3    11.0718
-#define DIV_4    11.0718
 
 // ADC reference voltage / calibration value
 #define V_REF    4.991
@@ -111,17 +106,17 @@ void loop()
     display.setTextColor(WHITE);
     
     display.setTextSize(2);
-	  display.clearDisplay();
+    display.clearDisplay();
     display.setCursor(0, 10);
     display.print("A ");
     display.setCursor(18, 10);
-    display.print(voltage[1] * DIV_1, 1);         
+    display.print(voltage[1] * DIV_1, 1); //watchout for voltage param number, this is referenced with the physical connection.        
     display.print("V ");      
 	
     display.setCursor(0, 28);
     display.print("B ");     
     display.setCursor(18, 28);    
-    display.print(voltage[0] * DIV_2, 1);         
+    display.print(voltage[0] * DIV_2, 1); //watchout for voltage param number, this is referenced with the physical connection.      
     display.print("V "); 
     
     display.setTextSize(2); 
