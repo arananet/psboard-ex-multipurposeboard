@@ -7,6 +7,8 @@ On the bom directory you will find the bom information and the pick and place in
 
 On the gerbers directly are the dual layer gerbers required to build this project.
 
+On the Ino directory you will find the ino file that goes inside the atmega. You must upload this using the arduino IDE and the USBASP programmer. You can also upload the code via the TX and RX pins just like when you upload a code on a Arduino Pro Mini.
+
 # Images
 
 <img src="https://github.com/arananet/multipurposeboard/blob/master/images/top.png?raw=true" width="400">
