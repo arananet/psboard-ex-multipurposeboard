@@ -5,7 +5,7 @@ This board was initially designed for an Amiga Power Supply to display the outpu
 
 On the bom directory you will find the bom information and the pick and place information.
 
-On the gerbers directly are the dual layer gerbers required to build this project.
+On the gerbers directory are the dual layer gerbers required to build this project.
 
 On the Ino directory you will find the ino file that goes inside the atmega. You must upload this using the arduino IDE and the USBASP programmer. You can also upload the code via the TX and RX pins just like when you upload a code on a Arduino Pro Mini. The code is based on this project https://startingelectronics.org/projects/arduino-projects/arduino-4-channel-LCD-voltmeter/
 
