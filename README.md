@@ -20,6 +20,7 @@ Vol1 > Volt meter 1 (connect the voltage that you want to monitor)
 
 # Images
 
+<img src="https://github.com/arananet/multipurposeboard/blob/main/images/pcb.png?raw=true" width="600">
 <img src="https://github.com/arananet/multipurposeboard/blob/main/images/1.png?raw=true" width="600">
 <img src="https://github.com/arananet/multipurposeboard/blob/main/images/2.png?raw=true" width="600">
 
