@@ -14,8 +14,11 @@ On the Ino directory you will find the ino file that goes inside the atmega. You
 Required pins for the Amiga SuperSupply are the ones at the most left of the board.
 
 GND > Main GND from PS.
+
 Vol2 > Volt meter 2 (connect the voltage that you want to monitor)
+
 Vol1 > Volt meter 1 (connect the voltage that you want to monitor)
+
 5V in > connect to a 5v source to powerup the board.
 
 # Images
