@@ -11,8 +11,8 @@ On the Ino directory you will find the ino file that goes inside the atmega. You
 
 # Images
 
-<img src="https://github.com/arananet/multipurposeboard/blob/master/images/top.png?raw=true" width="400">
-<img src="https://github.com/arananet/multipurposeboard/blob/master/images/bottom.png?raw=true" width="400">
+<img src="https://github.com/arananet/multipurposeboard/blob/master/images/1.png?raw=true" width="400">
+<img src="https://github.com/arananet/multipurposeboard/blob/master/images/2.png?raw=true" width="400">
 
 # Note
 
