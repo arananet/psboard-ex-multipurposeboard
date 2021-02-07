@@ -9,10 +9,19 @@ On the gerbers directly are the dual layer gerbers required to build this projec
 
 On the Ino directory you will find the ino file that goes inside the atmega. You must upload this using the arduino IDE and the USBASP programmer. You can also upload the code via the TX and RX pins just like when you upload a code on a Arduino Pro Mini.
 
+# Connection
+
+Required pins for the Amiga SuperSupply are the ones at the most left of the board.
+
+GND > Main GND from PS.
+Vol2 > Volt meter 2 (connect the voltage that you want to monitor)
+Vol1 > Volt meter 1 (connect the voltage that you want to monitor)
+5V in > connect to a 5v source to powerup the board.
+
 # Images
 
-<img src="https://github.com/arananet/multipurposeboard/blob/master/images/1.png?raw=true" width="400">
-<img src="https://github.com/arananet/multipurposeboard/blob/master/images/2.png?raw=true" width="400">
+<img src="https://github.com/arananet/multipurposeboard/blob/main/images/1.png?raw=true" width="400">
+<img src="https://github.com/arananet/multipurposeboard/blob/main/images/2.png/2.png?raw=true" width="400">
 
 # Note
 
