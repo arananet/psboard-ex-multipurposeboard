@@ -19,6 +19,12 @@ VCC
 
 GND
 
+# Amiga SuperSupply
+
+If your are gonna build my Amiga SupperSupply, you need to use this powerswich with the case >> https://www.thingiverse.com/thing:4753314
+
+https://es.aliexpress.com/item/32270611983.html?spm=a2g0s.9042311.0.0.274263c0ftBhhi
+
 
 # Connection
 
