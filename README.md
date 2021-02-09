@@ -9,6 +9,17 @@ On the gerbers directory are the dual layer gerbers required to build this proje
 
 On the Ino directory you will find the ino file that goes inside the atmega. You must upload this using the arduino IDE and the USBASP programmer. You can also upload the code via the TX and RX pins just like when you upload a code on a Arduino Pro Mini. The code is based on this project https://startingelectronics.org/projects/arduino-projects/arduino-4-channel-LCD-voltmeter/
 
+Oled - The footprint is for a 0.91" 128x32 oled display with the pinout as:
+
+SDA
+
+SCL
+
+VCC
+
+GND
+
+
 # Connection
 
 Required pins for the Amiga SuperSupply are the ones at the most left of the board.
