@@ -1,7 +1,7 @@
-# The multipurpose board
-This is, like his name states, a board that allows use any arduino pro mini or nano project (because is based on a atmega328p) that involves an oled, a microsd and or even a voltmeter.
+# PS board - Ex The multipurpose board
+This project has been renamed to psboard because now this board module it's specially made for the Amiga Super SUPPLY project.
 
-This board was initially designed for an Amiga Power Supply to display the output voltages of the Meanwell RT65. The project is described here http://blog.arananet.net/fabricando-una-fuente-de-alimentacion-para-amiga/
+This board is specially designed to display the output voltages of the Meanwell RT65. The project is described here http://blog.arananet.net/fabricando-una-fuente-de-alimentacion-para-amiga/
 
 On the bom directory you will find the bom information and the pick and place information.
 
@@ -9,7 +9,9 @@ On the gerbers directory are the dual layer gerbers required to build this proje
 
 On the Ino directory you will find the ino file that goes inside the atmega. You must upload this using the arduino IDE and the USBASP programmer. You can also upload the code via the TX and RX pins just like when you upload a code on a Arduino Pro Mini. The code is based on this project https://startingelectronics.org/projects/arduino-projects/arduino-4-channel-LCD-voltmeter/
 
-Oled - The footprint is for a 0.91" 128x32 oled display with the pinout as:
+## Oled
+
+This version allows two different types of oleds, 128x32 or 128x64. Both OLEDS pinout must be:
 
 SDA
 
@@ -19,7 +21,15 @@ VCC
 
 GND
 
-# Amiga SuperSupply
+## USB
+
+This new version includes a USB connector so you can also powerup other devices that requires 5V, like charging your mobile phone.
+
+Aliexpress usb connector:
+
+https://es.aliexpress.com/item/32861073445.html?spm=a2g0s.9042311.0.0.274263c0zJIWrg
+
+## Amiga SuperSupply Power button
 
 If your are gonna build my Amiga SupperSupply, and use this board, you will also need this powerswich 
 
@@ -34,15 +44,19 @@ Required pins for the Amiga SuperSupply are the ones at the most left of the boa
 
 GND > Main GND from PS.
 
-Vol2 > Volt meter 2 (connect the voltage that you want to monitor)
+V3 > Volt meter 2 (connect the voltage that you want to monitor)
 
-Vol1 > Volt meter 1 (connect the voltage that you want to monitor)
+V2 > Volt meter 1 (connect the voltage that you want to monitor)
 
-5V in > connect to a 5v source to powerup the board.
+V1 > Volt meter 1 (connect the voltage that you want to monitor)
+
+### VIN
+
+You must connect 5V directly from the powersupply to the pin 5VIN on the right side of the board. Also for the USB you must do the same as for the pin 12V, you must connect the pin 12V to the PS too.
 
 # Images
 
-<img src="https://github.com/arananet/multipurposeboard/blob/main/images/pcb.png?raw=true" width="600">
+<img src="https://github.com/arananet/multipurposeboard/blob/main/images/3.png?raw=true" width="600">
 <img src="https://github.com/arananet/multipurposeboard/blob/main/images/1.png?raw=true" width="600">
 <img src="https://github.com/arananet/multipurposeboard/blob/main/images/2.png?raw=true" width="600">
 
