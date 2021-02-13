@@ -57,8 +57,6 @@ You must connect 5V directly from the powersupply to the pin 5VIN on the right s
 # Images
 
 <img src="https://github.com/arananet/multipurposeboard/blob/main/images/3.png?raw=true" width="600">
-<img src="https://github.com/arananet/multipurposeboard/blob/main/images/1.png?raw=true" width="600">
-<img src="https://github.com/arananet/multipurposeboard/blob/main/images/2.png?raw=true" width="600">
 
 # Note
 
